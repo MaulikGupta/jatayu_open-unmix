@@ -6,7 +6,8 @@
 4. from 'open-unmix crack' folder copy all files to 'open-unimx-pytorch' folder i.e. the cloned template for open-unmix
 5. 'open-unmix-512' is the model trained via open-unmix to separate crow calls; and 'open-unmix-titli' is the model trained to separate sound of the bird blackbird.
     to train your own model use command saved in 'audio_source_model_train_command.txt'. 
-
+    correct all file paths in jupyer norebooks
+    run final.ipynb
 
 6. in folder 'datasets', folders 'crow', 'sparrow', 'titli', 'ESC-50' are original datasets used for audio separation and classification
 7. to split original mp3 files into 5 sec clips and to convert them into wav format use 'sourcefolder_formatting.py'
