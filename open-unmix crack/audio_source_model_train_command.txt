@@ -1,0 +1,9 @@
+python3 train.py\
+    --dataset sourcefolder\
+    --output open-unmix-512\
+    --root /home/maulik/Desktop/Maulik_Gupta/Documents/jatayu_open-unmix-discontinued/datasets/data\
+    --target-dir crow_call\
+    --interferer-dirs interfer sparrow_call titli_call\
+    --ext .wav\
+    --nb-train-samples 105\
+    --nb-valid-samples 33
