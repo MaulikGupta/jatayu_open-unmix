@@ -3,8 +3,9 @@
 1. clone this repo
 2. 
 3. create conda env using 'environment-gpu-linux-cuda10.yml'  --> conda env create -f scripts/environment-X.yml where X is either [cpu-linux, gpu-linux-cuda10, cpu-osx], depending on your system
-4. install torchvision using pip in the environment created
-5. 'open-unmix-512' is the model trained via open-unmix to separate crow calls; and 'open-unmix-titli' is the model trained to separate sound of the bird blackbird.
+4. install jupyter using 'conda install -c conda-forge notebook'
+5. 
+6. 'open-unmix-512' is the model trained via open-unmix to separate crow calls; and 'open-unmix-titli' is the model trained to separate sound of the bird blackbird.
     to train your own model use command saved in 'audio_source_model_train_command.txt'. 
     correct all file paths in jupyer norebooks
     run final.ipynb
