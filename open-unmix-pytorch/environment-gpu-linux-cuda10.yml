@@ -1,5 +1,4 @@
-name: demo
-
+name: please
 channels:
   - conda-forge
   - pytorch
