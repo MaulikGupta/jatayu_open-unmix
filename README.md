@@ -30,4 +30,4 @@ conda install -c conda-forge notebook
 - For image classification :
       - Run ```crow_sparrow_img_classify.ipynb``` to train and save the model.
 - For using saved model ```trained-model.ipynb```
-  > __NOTE :__ In file ```data.py``` at ___line 406___ you must change = to >= (or while training you can tell set the input lenght lesser than the actual length og the audio files)
+  > __NOTE :__ In file ```data.py``` at ___line 406___ you must change = to >= (or while training you can tell set the input lenght lesser than the actual length of the audio files)
